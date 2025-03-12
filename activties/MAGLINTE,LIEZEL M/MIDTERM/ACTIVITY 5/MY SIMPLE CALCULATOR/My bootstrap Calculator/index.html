@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <form  action="../../../../page/blog.html" method="POST">
+    <input type="submit" value="Go Back"/>
+  </form>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="card">
+            <div class="card-header">
+              My Bootstrap Calculator
+            </div>
+            <div class="card-body">
+              <div class="mb-3">
+                <label for="number1" class="form-label">Number 1:</label>
+                <input type="text" class="form-input" placeholder="Enter number 1" id="txtNum1">
+              </div>
+              <div class="mb-3">
+                <label for="number2" class="form-label">Number 2:</label>
+                <input type="text" class="form-input" placeholder="Enter number 2" id="txtNum2">
+              </div>
+
+              <br>
+
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="d-grid gap-2" style="background-color: blue;"
+                  onclick="addNumbers()">+</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="d-grid gap-2" style="background-color: yellow; color: black;"
+                  onclick="subtractNumbers()">-</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="d-grid gap-2" style="background-color: green;"
+                  onclick="multiplyNumbers()">*</button>
+                </div>
+                <div class="col">
+                  <button type="button" class="d-grid gap-2" style="background-color: red;"
+                  onclick="divideNumbers()">/</button>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <button type="button" class="clear" style="background-color: gray; color: white;"
+                  onclick="clearTextboxes()">Clear</button>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <head>
+        <title>My Simple Calculator</title>
+        <link href="css/calculator-style.css" type="text/css" rel="stylesheet">
+    </head>
+
+<body>
+
+    <form action="../../../../page/blog.html" method="POST" style="margin-left: -1450px; margin-top: -700px;">
+        <input type="submit" value="Go Back"/>
+    </form>
+
+
+    <div class = "main">
+    <h2 id = "headingTitle">My Simple Calculator</h2>
+    <table>
+
+        <tr>
+            <td class = "form-label"><label>NUM1: </label></td>
+            <td><input type="text" id="txtNum1"></td>
+        </tr>
+        <tr>
+            <td class = "form-label"><label>NUM2: </label></td>
+            <td><input type="text" id="txtNum2"></td>
+        </tr>
+    </div>
+    </table>
+    <br>
+
+    <div class = "btn">
+        <input type ="button" value = "+" onclick = "addNumbers()" >
+        <input type ="button" value = "-" onclick = "subtractNumbers()" >
+        <input type ="button" value = "*" onclick = "multiplyNumbers()" >
+        <input type ="button" value = "/" onclick = "divideNumbers()" >
+        <input type ="button" value = "CLEAR" id ="btnClear" onclick = "clearTextboxes()" >
+       
+        <script src = "js/calculator-script.js" type="text/javascript"></script>
+    </div>
+
+</body>     
+</html>

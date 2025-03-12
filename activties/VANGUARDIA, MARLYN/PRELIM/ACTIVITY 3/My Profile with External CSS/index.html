@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <title>MY PROFILE</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    </head>
+    <body>
+        <form action="../../../../page/blog.html" method="POST">
+            <input type="submit" value="Go Back"/>
+        </form>
+        <!--ALL CONTENT HTML CODE SHOUD PLACE HERE-->
+        <h3>MY PROFILE</h3>
+        <img src="../My Profile with External CSS/img/img.jpg"/>
+        <table class="center">
+            <tr>
+                <th>Name:</th>
+                <td>Vanguardia, Marlyn S.</td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Single</td>
+            </tr>
+            <tr>
+                <th>Birthdate:</th>
+                <td>2001/09/09</td>
+            </tr>
+            <tr>
+                <th>Home Address:</th>
+                <td>Cubacub, Mandaue City</td>
+            </tr>
+            <tr>
+                <th>Mobile Number:</th>
+                <td>09612503111</td>
+            </tr>
+            <tr>
+                <th>Email Address:</th>
+                <td>marlyn.vanguardia000@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Secondary Education:</th>
+                <td>Canduman National Highschool</td>
+            </tr>
+            <tr>
+                <th>Tertiary Education:</th>
+                <td>Asian College of Technology</td>
+            </tr>
+            <tr>
+                <th>Program:</th>
+                <td>Bachelor of Science in Information Technology</td>
+            </tr>
+        </table>
+        <br>
+        <!--FORM START-->
+    <form class="myform">
+        <p><strong>* denotes mandatory</strong></p>
+
+        <label>Full name*:</label><br>
+        <input type="text" id="fllname"  placeholder="FirstName LastName"><br>
+        <label>Email address*:</label><br>
+        <input type="text" id="email" name="email" placeholder="EMAIL_ADDRESS"><br>
+        <label>Select Tour Package*:</label><br>
+        <select name="packages" id="packages">
+            <option value="America">America</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+            <option value="Japan">Japan</option>
+        </select><br>
+        <label>Arrival Date*:</label><br>
+        <input type="date" id="ArrivalDate"><br>
+        <label>Number of persons*:</label><br>
+        <input type="text" id="noofperson" name="noofperson" placeholder="UNKNOWN_TYPE"><br>
+        <label>What would you want to avail?*</label><br>
+        <label for="ticket1">Boarding</label>
+        <input type="checkbox" id="ticket1" name="ticket1" value="Ticket"><br>
+        <label for="ticket2">Fooding</label>
+        <input type="checkbox" id="ticket2" name="ticket2" value="Food"><br>
+        <label for="ticket3">Sight seeing</label>
+        <input type="checkbox" id="ticket3" name="ticket3" value="SSeing"><br>
+        <label>Discount coupon code*:</label><br>
+        <input type="text" id="discoupon" name="discoupon" placeholder="UNKNOWN_TYPE"><br>
+        <label>Terms and conditions*</label><br>
+        <input type="radio" id="agree" name="Iagree" value="iagree">
+        <label for="iagree">I agree</label> 
+        <input type="radio" id="disagree" name="disagree" value="disagree">
+        <label for="disagree">I disagree</label><br>
+        <input type="submit" value="Complete reservation">
+        <!--END OF FORM-->
+    </form>
+    </body>
+</head>
+</html>

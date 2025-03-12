@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<head>
+    <title>MY PROFILE</title>
+    <style>
+       body{
+        font-family:  Arial, Helvetica, sans-serif;
+       }
+       h3{
+        text-align: center;
+       }
+        table{
+            width: 50%;
+            font-size: 15px;
+            margin-top: 40px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        td{
+            border: 2px solid black;
+            text-align: left;
+        }
+        th{
+            border: 2px solid black;
+            text-align:  right;
+        }
+
+    </style>
+    <body>
+        <form action="../../../../page/blog.html" method="POST">
+            <input type="submit" value="Go Back"/>
+        </form>
+    
+        <center>
+        <!--ALL CONTENT HTML CODE SHOUD PLACE HERE-->
+        <h3>MY PROFILE</h3>
+        <img src="img/img.jpg" width="300" height="300" border="10">
+        <table style="width:100;">
+            <tr>
+                <!--Displaying the Input Data-->
+                <th>Name:</th>
+                <td>Trisha Mae Balasabas</td>
+            </tr>
+            <tr>
+                <th>Age:</th>
+                <td>20 yrs. old</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td>Single</td>
+            </tr>
+            <tr>
+                <th>Birthdate:</th>
+                <td>November 25,2002</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>Greenfield, Inayawan Cebu City</td>
+            </tr>
+            <tr>
+                <th>Mobile Number:</th>
+                <td>09153925517</td>
+            </tr>
+            <tr>
+                <th>Email Address:</th>
+                <td>abangantrishamae@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Secondary Education:</th>
+                <td>Pardo National High School</td>
+            </tr>
+            <tr>
+                <th>Tertiary Education:</th>
+                <td>Asian College of Technology</td>
+            </tr>
+            <tr>
+                <th>Program:</th>
+                <td>Bachelor of Science in Information Technology</td>
+            </tr>
+        </table>
+                
+
+    
+
+
+    <form>
+        <p><strong>*denotes mandatory</strong></p>
+        <label for="fname"><b>Full Name*:</b></label><br>
+        <input type="text" id="fname" name="fullname" placeholder="Firstname Lastname"><br>
+    
+        <label for="email"><b>Email Address*:</b></label><br>
+        <input type="text" id="email" name="email" placeholder="EMAIL_ADDRESS"><br>
+    
+        <label for="tour"><b>Select Tour Package*:</b></label><br>
+        <select id="tour" name="tour">
+          <option value="goa">Goa</option>
+          <option value="japan">Japan</option>
+          <option value="usa">USA</option>
+        </select><br>
+    
+        <label for="arrival"><b>Arrival date*:</b></label><br>
+        <input type="text" id="arrival" name="arrival" placeholder="m/d/y"><br>
+    
+        <label for="number"><b>Number of persons*:</b></label><br>
+        <input type="text" id="number" name="number" placeholder="UNKNOWN_TYPE"><br>
+    
+        <label><b>What would you want to avail?*</b></label><br>
+        <label for="avail1"><b>Boarding</b></label>
+        <input type="checkbox" id="avail1" name="avail1"><br>
+        <label for="avail2"><b>Fooding</b></label>
+        <input type="checkbox" id="avail2" name="avail2"><br>
+        <label for="avail3"><b>Sight seeing</b></label>
+        <input type="checkbox" id="avail3" name="avail3"><br>
+    
+        <label for="discount"><b>Discount Coupon code:</b></label><br>
+        <input type="text" id="discount" name="discount" placeholder="UNKNOWN_TYPE"><br>
+    
+        <label><b>Terms and conditions*</b></label><br>
+        <input type="radio" id="agree" name="agree" value="I agree">
+        <label for="agree"><b>I agree</b></label>
+        <input type="radio" id="disagree" name="disagree" value="I disagree">
+        <label for="disagree"><b>I disagree</b></label><br>
+    
+        <input type="submit" value="Complete reservation"><br>
+    </form>
+    
+    </body>
+    </center>
+</head>
+</html>
